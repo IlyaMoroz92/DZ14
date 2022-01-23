@@ -1,0 +1,55 @@
+body {
+    background-image: url(/img/black-carbon-super-temnyy.jpg);
+    height: 100vh;
+    color: white;
+    width: 100%;
+}
+
+.input-text {
+    background: none;
+    width: 200px;
+    height: 50px;
+}
+
+input {
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.input-button {
+    background: none;
+    cursor: pointer;
+    width: 150px;
+    height: 54px;
+    -webkit-transition: all linear .25s;
+}
+
+.input-button:hover {
+    height: 54px;
+    width: 200px;
+    transition: all 0.5s ease;
+    background-color: rgb(219, 219, 219);
+    color: black;
+}
+
+.string-p {
+    animation: text 7s infinite linear;
+    font-size: 40px;
+    margin: 0;
+    padding: 0%;
+}
+
+@keyframes text {
+    0%{
+      transform: translate(0, 0);
+    }
+    
+    50%{
+      transform: translate(170px, 0);
+    }
+    100%{
+        transform: translate(0, 0);
+      }
+  }
