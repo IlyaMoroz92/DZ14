@@ -2,7 +2,7 @@ body {
     background-image: url(/img/black-carbon-super-temnyy.jpg);
     height: 100vh;
     color: white;
-    width: 100%;
+    background-attachment: fixed;
 }
 
 .input-text {
@@ -23,7 +23,7 @@ input {
     cursor: pointer;
     width: 150px;
     height: 54px;
-    -webkit-transition: all linear .25s;
+    transition: all linear .25s;
 }
 
 .input-button:hover {
@@ -52,4 +52,9 @@ input {
     100%{
         transform: translate(0, 0);
       }
+  }
+
+ p {
+    width: 100%;
+    word-wrap: break-word;
   }
