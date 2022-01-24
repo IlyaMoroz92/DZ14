@@ -1,7 +1,7 @@
 function arr (num) {
     document.querySelector('p').remove()
     num = Number(document.querySelector('.input-text').value);
-    let arr = new Array(num+1);
+    let arr = new Array(num);
     for (let i = 1; i<(arr.length+1); i++) {
     let num = Math.floor(Math.random()*(arr.length));
     if (arr[num] === undefined) {
