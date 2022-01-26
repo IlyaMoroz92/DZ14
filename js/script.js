@@ -7,10 +7,9 @@ function arr (num) {
     if (arr[num] === undefined) {
         arr[num] =  i;
         } else {
-        for ( j = 0; j < (arr.length+1); j++) {
+        for ( j = 0; j < (arr.length); j++) {
             if (arr[j] === undefined) {
-            arr[num] =  i;
-            console.log(arr[num]);
+            arr[j] =  i;
             break;
             }
         }       
